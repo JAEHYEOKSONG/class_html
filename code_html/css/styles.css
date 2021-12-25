@@ -1,0 +1,18 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: cadetblue;
+  font-size: 300%;
+  font-family: Verdana;
+}
+
+p{
+  color: blueviolet;
+  font-family: 'Courier New';
+  font-size: 160%;
+  border: 5px solid powderblue;
+  padding: 30px;
+  margin: 100px;
+}
