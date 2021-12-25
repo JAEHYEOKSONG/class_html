@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #m_box {/*id*/
+      background-color: rgb(117, 117, 192);
+    }
+
+    .box {
+      background-color: aquamarine;
+    }
+
+    .box2 { /*class*/
+      outline-color: aqua;
+      font-size: 100px;
+      color: aquamarine;
+    }
+    #my_id1{
+      color: blueviolet;
+    }
+    /*태그 선택자*/
+    hr {
+      background-color: chartreuse;
+    }
+  </style>
+</head>
+<body>
+  <h2> 절대 경로</h2>
+  <p>
+    <a href="https://www.google.com">Google</a>
+  </p>
+
+  <h2>상대 경로</h2>
+  <p>
+    <a href="code_02.html">My Html page</a>
+  </p>
+  <!--이미지를 링크로 사용-->
+  <br>
+  <a href="https://www.naver.com">
+    <img src="./img/img_html.png" alt="html연습" style="width: 42px height 42px;">
+  </a>
+  <br>
+  <button onclick="document.location='code_04.html'">이동</button>
+
+
+  <div class="box">box 클래스</div>
+  <div class="box">box 클래스</div>
+  <div id="m_box">m_box 아이디</div>
+
+  <hr>
+
+  <div class ="box2">html 1</div>
+  <div class ="box2">html 2</div>
+  <div id ="my_id1">html 3</div>
+</body>
+</html>
