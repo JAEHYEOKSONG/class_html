@@ -1,0 +1,16 @@
+표현 단위
+px 픽셀
+% 상대적 백분율
+em 요소의 글꼴 크기
+rem 루트요소 (html)의 글꼴크기
+vw 뷰 포트 가로 너비의 백분율
+vh 뷰포트 세로 너비의 백분율
+html은 기본적으로 16 px이다.
+margin-bottom: 20px; 외부여백 밑에 여백 들어가게함
+margin: 10px 20px;
+10px top, bottom
+20px left, right
+margin 10px 20px 30px;
+top, (left, right) bottom
+margin 10px 20px 30px 40px;
+top, right, bottom ,left
